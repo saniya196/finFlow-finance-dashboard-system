@@ -1,46 +1,61 @@
-# FinFlow Finance Dashboard
+💸 FinFlow – Finance Dashboard UI
 
-A modern, premium finance dashboard built with only four files:
+A modern and interactive finance dashboard designed with a clean, premium UI and smooth user experience.
 
-- `index.html`
-- `style.css`
-- `script.js`
-- `README.md`
+🔗 Live Demo: https://finflow-ui.netlify.app
 
-## What It Includes
+📂 GitHub Repo: https://github.com/saniya196/FinFlow-Finance-Dashboard-System
 
-- Login and signup UI in the same page (frontend-only authentication)
-- Multi-user account simulation using localStorage
-- Personalized per-user transactions (each user sees only their own data)
-- Wide premium sidebar with gradient, active states, hover animation, and profile card
-- Top navbar with search, notifications, dark mode toggle, and gradient CTA
-- Financial Overview header with modern typography (Manrope)
-- 4 summary cards: Balance, Income, Expenses, Savings
-- Doughnut chart (Chart.js) with filter toggles and custom legend
-- Quick stats panel with clean rows and subtle dividers
-- Recent transactions table with filter pills, status badges, edit and delete actions
-- Add/Edit transaction modal
-- Dark mode preference saved per user
-- Mobile responsive layout with collapsible sidebar
+🚀 Features
+Login & Signup UI (frontend authentication using localStorage)
+Multi-user support with personalized data
+Financial overview with Balance, Income, Expenses, Savings
+Interactive Doughnut Chart (Chart.js)
+Transaction management (Add, Edit, Delete)
+Filter transactions with status badges
+Dark mode with user-specific persistence
+Fully responsive layout with collapsible sidebar
+Modern UI with gradient sidebar, hover effects, and smooth animations
+🛠️ Tech Stack
+HTML5
+CSS3
+JavaScript (Vanilla JS)
+Chart.js
+📁 Project Structure
 
-## Run
+FinFlow-Finance-Dashboard-System/
+└── FinFlow-Finance Dashboard/
+  ├── index.html
+  ├── login.html
+  ├── signup.html
+  ├── style.css
+  ├── script.js
+  ├── auth.js
+  └── README.md
 
-1. Open `index.html` in your browser.
-2. Login with demo user or create a new account.
+▶️ How to Run
+Open index.html in your browser
+Login using demo credentials or create a new account
 
-Demo credentials:
+Demo Credentials:
+Email: demo@finflow.com
 
-- Email: `demo@finflow.com`
-- Password: `Demo@123`
+Password: Demo@123
 
-## Data Storage Keys
+💾 Data Storage (localStorage)
 
-- Users: `ff_users`
-- Active session: `ff_current_user`
-- User theme: `ff_theme_<email>`
-- User transactions: `ff_transactions_<email>`
+Users → ff_users
+Active session → ff_current_user
+Theme → ff_theme_<email>
+Transactions → ff_transactions_<email>
 
-## Notes
+⚠️ Note
 
-- This project has no backend and is meant for UI/demo purposes.
-- All data is stored in browser localStorage.
+This project is frontend-only and intended for UI demonstration purposes.
+All data is stored in the browser using localStorage.
+
+✨ Future Improvements
+Backend integration (Node.js / Firebase)
+Real authentication system
+Database support
+Advanced analytics & charts
